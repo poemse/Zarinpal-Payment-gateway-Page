@@ -1,2 +1,2 @@
-Zarinpal Payment gateway Page
+Zarinpal Payment gateway Page  
 صفحه ساده پرداخت زرین پال 
