@@ -19,7 +19,7 @@ if ($price < 10000){
 //     echo "<script>console.log('Debug Objects: " . $output . "' );</script>";
 // }
 
-$data = array("merchant_id" => "مرچنت",
+$data = array("merchant_id" => $merchant_id,
     "amount" => $price,
     "callback_url" => "".$adress ."check.php",
     "description" => "توضیحات برای درگاه",
