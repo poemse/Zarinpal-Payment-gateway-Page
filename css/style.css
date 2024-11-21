@@ -1,0 +1,124 @@
+
+html, body {
+    height:100%;
+    background-color: black;
+} 
+
+body {
+    background-image:url('../images/back.jpg');
+    height: 100%; 
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-position: left top;
+    background-color: black;
+    font-family: myAhangFont;
+}
+
+@font-face {
+  font-family: myAhangFont;
+  src: url(../font/woff/Ahang-Regular.woff);
+}
+
+
+@font-face {
+  font-family: myAhangFontBold;
+  src: url(../font/woff/Ahang-Bold.woff);
+}
+
+
+@font-face {
+  font-family: myAhangFontUltraLIght;
+  src: url(../font/woff/Ahang-UltraLight.woff);
+}
+
+
+
+/*set input type border radius*/
+
+input[type="number"] { 
+      padding: 0.5rem;
+      border: double 10px transparent;
+      border-radius: 35px;
+      background-image: linear-gradient(white, white), 
+                        repeating-linear-gradient(135deg,gray,silver 2%,white 2%);
+      background-origin: border-box;
+      background-clip: padding-box, border-box;
+      font-family: myAhangFontBold;
+      font-size: 17px;
+}
+
+
+
+
+
+/* set image  */
+
+.set_logo{
+    margin-top: 30%;
+    max-width: 50%;
+    height: auto;
+}
+
+.set_line{
+    max-width: 100%;
+    height: auto;
+}
+
+.img_btn{
+    width: 70%;
+}
+
+
+/* set budy */
+
+.text_head{
+    font-size: 32px;
+    color: white;
+    font-family: myAhangFontBold;
+}
+
+.text{
+    font-size: 15.5px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: white;
+    font-family: myAhangFont;
+}
+
+.text2{
+    font-size: 17px;
+    color: white;
+    font-family: myAhangFont;
+}
+
+.text_Button{
+    font-size: 15px;
+    color: white;
+    font-family: myAhangFontUltraLIght;
+}
+
+.text_Button_2{
+    font-size: 12px;
+    color: white;
+    font-family: myAhangFont;
+}
+
+
+
+footer {
+  border-top: solid 1px;
+  background: rgba(150, 150, 150, 0.5);
+  width: 100%;
+  height: 40px;
+  padding-top: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  font-family: myAhangFontBold;
+}
+
+
+
+
+
