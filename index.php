@@ -93,7 +93,7 @@
     </div>
                 
     <footer>
-        تمام حقوق مربوط به سایت .... می باشد 
+        تمام حقوق مربوط به سایت <? $name ?> می باشد 
     </footer>
     
        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>     
